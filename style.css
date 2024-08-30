@@ -1,0 +1,182 @@
+.header{
+    width: 100%;
+    height: 80px;
+}
+.left_header{
+    width: 50%;
+    height: 80px;
+    float: left;
+    
+}
+.right_header{
+    width: 49%;
+    height: 80px;
+    float: right;
+   
+}
+.logo{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+}
+li{
+    width: auto;
+    padding: 10px;
+    float: left;
+}
+.right_header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(38, 38, 38);
+}
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.left_banner{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.right_banner{
+    width: 49%;
+    height: 500px;
+    float: right;
+}
+.left_banner h1{
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 45px;
+}
+.left_banner p{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.botton_section{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.botton_section a{
+    width: 160px;
+    height: 40px;
+    background: #ed3f00;
+    display: block;
+    margin: 10px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.right_banner img{
+    width: 400px;
+}
+
+.learning_section{
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    text-align: center;
+}
+.learning_section h4{
+    font-size: 22px;
+    color: #ed3f00;
+}
+
+.learning_section h1{
+    font-size: 35px;
+}
+.bottom_learning_section{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+.left_bottom_learning_section{
+    width: 50%;
+    height: 600px;
+    border: 1px solid green;
+    float: left;
+
+}
+.right_bottom_learning_section{
+    width: 49%;
+    height: 600px;
+    border: 1px solid blue;
+    float: left;
+    display: grid;
+    grid-template-columns: 270px 270px;
+}
+
+.left_bottom_learning_section img{
+    width: 600px;
+    height: 500px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(13, 228, 244);
+    margin: 5px;
+    
+}
+
+@media only screen and (min-width : 360px) and (max-width : 400px){
+    .header{
+        width: 100%;
+        height: 200px;
+
+    }
+    .left_header{
+        width: 100%;
+        height: 100px;
+        float: none;
+        border: 1px solid red;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .right_header{
+        width: 100%;
+        height: 100px;
+        float: none;
+    }
+   
+    .right_header ul li a{
+        font-size: 15px;
+    }
+
+.banner{
+    width: 100%;
+    height: 800px;
+}
+.left_banner{
+    width: 100%;
+    height: 400px;
+    float: none;
+}
+
+.left_banner h1{
+    margin: 10px;
+    font-size: 33px;
+}
+.left_banner p{
+    margin: 10px;
+    font-size: 15px;
+}
+.botton_section{
+    margin: 10px;
+}
+.right_banner{
+    width: 100%;
+    height: 400px;
+    float: none;
+}
+.right_banner img{
+    width: 300px;
+}
+}
